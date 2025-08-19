@@ -1,0 +1,92 @@
+body{
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(6, 118, 135, 0.8), grey 60%); 
+  overflow: hidden;
+  
+  
+  
+}
+
+.container{
+  border: solid 1px black;
+  /* max-width: 240px; */
+  width: 270px;
+  height: max-content;
+  overflow-y: auto; 
+  transition: overflow-y 0.3s ease;
+  max-height: 300px;
+  padding: 0px 20px 20px 20px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 10px 1px  black; */
+  background-color: white;
+  border: 1px solid black;
+
+  
+}
+
+h1{
+  font-family: "Bebas Neue", sans-serif;
+  color: grey;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-size:4.55rem;
+  margin-bottom: 1px;
+  margin-top: 20px;
+  cursor: default;
+ 
+
+}
+
+#inputbox{
+  outline: none;
+  border: none;
+  border-bottom: 1px grey solid;
+  margin-right : 3px;
+  padding-left: 5px;
+  height: 1.4rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: grey;
+  font-size: 1rem;
+  border-radius: 0;
+  
+  
+}
+
+#add-btn{
+  border: solid 1px rgb(6, 118, 135);
+  background-color: white;
+  color: rgb(6, 118, 135);
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 2px;
+  transition: background-color 0.40s,
+    color 0.40s,
+    transform 0.2s;
+    cursor: pointer;
+}
+
+#add-btn:hover{
+   background-color: rgb(6, 118, 135);
+    color: white;
+}
+
+#add-btn:active{
+  transform: scale(0.9);
+}
+
+span{
+  color: rgb(5, 114, 102);
+  
+  
+}
+.task p {
+  white-space: normal;       /* text can wrap */
+  overflow-wrap: break-word; /* breaks extra-long words */
+}
+
+

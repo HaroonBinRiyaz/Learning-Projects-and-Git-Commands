@@ -1,0 +1,74 @@
+body{
+  background-color: #f1f1f1;
+  font-family: 'Arial', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  display: gird;
+  place-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  word-spacing: 5px;
+  
+
+}
+
+p{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  
+}
+
+button{
+  border: none;
+  font-size: 3rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  /* background-color: black; */
+  border-radius: 5px;
+  transition: box-shadow 0.3s, scale 0.3s;
+}
+
+button:hover{
+  box-shadow: 0px 0px 5px 3px rgb(0, 0, 0);
+}
+button:active{
+  scale: 0.85;
+}
+#rock{
+  background-color: rgb(140, 2, 2);
+}
+
+#paper{
+  background-color: rgb(5, 122, 15);
+}
+
+#scissors{
+  background-color: rgb(3, 105, 110);
+}
+#user-score{
+  color: blue;
+  font-weight: 700;
+
+}
+
+#computer-score{
+  color: red;
+  font-weight: 700;
+}

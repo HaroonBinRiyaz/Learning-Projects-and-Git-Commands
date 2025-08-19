@@ -1,0 +1,74 @@
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+
+.parent{
+  border: none;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 1px rgb(6, 118, 135);
+  border-radius: 10px;
+}
+
+p{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: rgb(6, 118, 135);
+}
+
+.child2{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 10px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  border: solid 1px rgb(6, 118, 135);
+  background-color: white;
+  color: rgb(6, 118, 135);
+  border-radius: 5px;
+  transition: background-color 0.40s,
+    color 0.40s,
+    transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: rgb(6, 118, 135);
+    color: white;
+  }
+  
+  .btn:active{
+    transform: scale(0.9);
+  }
+  
+  .btn2{
+    border: solid 1px rgb(220, 77, 77);
+    background-color: white;
+    color: rgb(220, 77, 77);
+    border-radius: 5px;
+    transition: background-color 0.40s,
+      color 0.40s,
+      transform 0.2s;
+      cursor: pointer;
+}
+
+.btn2:hover{
+  background-color: rgb(220, 77, 77);
+  color: white;
+}
+
+.btn2:active{
+  transform: scale(0.9);
+}
